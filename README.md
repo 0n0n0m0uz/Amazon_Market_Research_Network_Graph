@@ -15,3 +15,6 @@ http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 6. Export this final Node + Edgelist to CSV.
 
 ## Graph Input
+1. Use the Jupyter Notebook Generate_Graphy.ipynb to create the network graph
+2. Input the CSV from the Data Processing Steps above
+3. 
