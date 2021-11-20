@@ -6,7 +6,7 @@ Final Project for CSE6242 - Amazon Co-Purchasing Network Graph
 
 
 ## Data Processesing
-1. Download the Cateogry you wish to use from the Amazon review data (2018) website:
+1. Download the Product Category you wish to use from the Amazon review data (2018) website:
 http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 2. Use the Jupyter Notebook: Amazon_Data_Explore to examine the dataset and get familiar with its structure
 3. Manipulate the DataSet to generate an edgelist consisting of Amazon Product Level ID (ASIN) to each associated co-purchased (Also-Buys)
