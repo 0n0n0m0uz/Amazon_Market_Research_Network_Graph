@@ -22,7 +22,7 @@ The goal of this step is to import Amazon Co-Purchasing data for a single produc
 
 1. Download the datasets for the Product Category you wish to use from the Amazon review data (2018) website:
 http://deepyeti.ucsd.edu/jianmo/amazon/index.html
-2. Use the Jupyter Notebook: Amazon_Data_Exploration.ipynb to import/download the dataset
+2. Use the Jupyter Notebook: **Amazon_Data_Exploration.ipynb** to import/download the dataset
 3. Follow the notebook cells in sequential order to clean the dataset
 4. View the summary, data exploration cells to understand the product category at a high-level
 5. Export the final category Edgelist to CSV.
@@ -32,7 +32,7 @@ http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 
 The goal of this step is to take your category edgelist from above and import it into the networkx graphing package.  By using this jupyter notebook you can apply various community-detection algorithms and other high level graph metrics.  The final step will output the graph to a .gexf package which can be used to plot the graph in GEPHI graphing software.
 
-1. Input the CSV from the Data Processing Steps above
+1. Use the notebook **GraphBuild.ipynb** to input the CSV from the Data Processing Steps above
 2. Use networkx to create various graphs and run various community detection algorithms, including Louvain, Lediden, Girvan Groups
 3. Find Cliques of interest, Graph Components and partitions to try and discover things about the category
 4. Export graph to .gexf
