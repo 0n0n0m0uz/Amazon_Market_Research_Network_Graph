@@ -8,9 +8,9 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 #![Leiden](LeidenImg.png#center)
 
-<center><img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/LeidenImg.png"></center>
-
-
+<p align="center">
+  <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/LeidenImg.png"/>
+</p>
 
 # Overview
 
