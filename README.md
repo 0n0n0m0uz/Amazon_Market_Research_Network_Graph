@@ -6,7 +6,7 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 
 <p align="center">
-  <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/LeidenImg.png" style="transform:rotate(90deg);/>
+  <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/images/LeidenImg.png"/>
 </p>
 
 # Overview
