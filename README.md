@@ -7,10 +7,14 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
   <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/images/LeidenImg.png" align="left"/>
   <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/images/maximal_cliques2.jpg" align="right"/>
   <br />
+  <br />
+  <br />
 </p>
 <br />
 <br />
+<br />
 ***
+<br />
 <br />
 <br />
 
