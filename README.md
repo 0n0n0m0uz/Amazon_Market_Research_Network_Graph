@@ -13,7 +13,6 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 <br />
 <br />
 <br />
-***
 <br />
 <br />
 <br />
