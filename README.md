@@ -1,6 +1,4 @@
-# CSE6242_Team181_Amazon
-
-## Final Project for CSE6242 - Amazon Co-Purchasing Network Graph
+## Final Project for Team 181 - CSE6242 - Amazon Co-Purchasing Network Graphing Tool
 
 We designed a tool for aspiring entrepreneurs seeking to get involved with Amazon FBA or have a side hustle.  It is very overwhelming for people to know where to being.  We saw a need for a tool that could take advantage of publicly available Amazon Co-Purchasing datasets.  By allowing users to select a produuct category of interest and drill down into deeper layers of granularity they may discover product niches, relationships between products they were not aware existed, or groups of products commonly purchased together.
 
@@ -8,6 +6,9 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 <p align="center">
   <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/images/LeidenImg.png"/>
 </p>
+
+# tl;dr 
+view the interactive webpage in the webpage folder to see a co-purchasing community from the electronics category
 
 # Overview
 
@@ -31,6 +32,11 @@ http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 
 The goal of this step is to take your category edgelist from above and import it into the networkx graphing package.  By using this jupyter notebook you can apply various community-detection algorithms and other high level graph metrics.  The final step will output the graph to a .gexf package which can be used to plot the graph in GEPHI graphing software.
 
-1. Use the Jupyter Notebook Generate_Graphs.ipynb to create the network graph
-2. Input the CSV from the Data Processing Steps above
-3. 
+1. Input the CSV from the Data Processing Steps above
+2. Use networkx to create various graphs and run various community detection algorithms, including Louvain, Lediden, Girvan Groups
+3. Find Cliques of interest, Graph Components and partitions to try and discover things about the category
+4. Export graph to .gexf
+
+## View Graph Visualization in Gephi (or other software)
+
+
