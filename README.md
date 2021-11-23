@@ -11,7 +11,8 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 # Overview
 
-With any publicly available dataset of this size comes many data quality issues to deal with.  This means there are many manual steps to take to get a clean, duplicate free, base case for futher analysis.  By following the steps outlined, you will be able to analyze and product categrory available on: ![Amazon review data](http://deepyeti.ucsd.edu/jianmo/amazon/index.html)
+With any publicly available dataset of this size comes many data quality issues to deal with.  This means there are many manual steps to take to get a clean, duplicate free, base case for futher analysis.  By following the steps outlined, you will be able to analyze and product categrory available on: 
+![Amazon review data](http://deepyeti.ucsd.edu/jianmo/amazon/index.html)
 
 
 ## Data Processesing
