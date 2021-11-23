@@ -5,11 +5,8 @@
 We designed a tool for aspiring entrepreneurs seeking to get involved with Amazon FBA or have a side hustle.  It is very overwhelming for people to know where to being.  We saw a need for a tool that could take advantage of publicly available Amazon Co-Purchasing datasets.  By allowing users to select a produuct category of interest and drill down into deeper layers of granularity they may discover product niches, relationships between products they were not aware existed, or groups of products commonly purchased together.
 
 
-
-#![Leiden](LeidenImg.png#center)
-
 <p align="center">
-  <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/LeidenImg.png"/>
+  <img src="https://github.com/0n0n0m0uz/CSE6242_Team181_Amazon/blob/main/LeidenImg.png" style="transform:rotate(90deg);/>
 </p>
 
 # Overview
