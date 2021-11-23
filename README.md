@@ -6,7 +6,9 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 
 
-![Leiden](LeidenImg.png)
+![Leiden](LeidenImg.png#center)
+
+
 
 
 # Overview
