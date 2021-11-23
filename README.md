@@ -14,17 +14,23 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 With any publicly available dataset of this size comes many data quality issues to deal with.  This means there are many manual steps to take to get a clean, duplicate free, base case for futher analysis.  By following the steps outlined, you will be able to analyze and product categrory available on: 
 [Amazon review data](http://deepyeti.ucsd.edu/jianmo/amazon/index.html)
 
+***
+## Data processing
 
-## Data Processesing
-1. Download the Product Category you wish to use from the Amazon review data (2018) website:
+The goal of this step is to import Amazon Co-Purchasing data for a single product category, clean up that dataset and get it into a form more useful for our purposes, explore summary statistics to get a feel for the category and finally export a duplicate-free edgeslist which can then be used as input for various graphing tools.
+
+1. Download the datasets for the Product Category you wish to use from the Amazon review data (2018) website:
 http://deepyeti.ucsd.edu/jianmo/amazon/index.html
-2. Use the Jupyter Notebook: Amazon_Data_Exploration notebook to examine the dataset and get familiar with its structure
-3. Manipulate the DataSet to generate an edgelist consisting of Amazon Product Level ID (ASIN) to each associated co-purchased (Also-Buys)
-4. Join in the Label (Item Description) for all ASIN's outside of the base category.
-5. Remove any items without a label, which correspondes to items with 0 reviews (don't exist in dataset)
-6. Export this final Node + Edgelist to CSV.
+2. Use the Jupyter Notebook: Amazon_Data_Exploration.ipynb to import/download the dataset
+3. Follow the notebook cells in sequential order to clean the dataset
+4. View the summary, data exploration cells to understand the product category at a high-level
+5. Export the final category Edgelist to CSV.
 
+***
 ## Graph Input
-1. Use the Jupyter Notebook Generate_Graphy.ipynb to create the network graph
+
+The goal of this step is to take your category edgelist from above and import it into the networkx graphing package.  By using this jupyter notebook you can apply various community-detection algorithms and other high level graph metrics.  The final step will output the graph to a .gexf package which can be used to plot the graph in GEPHI graphing software.
+
+1. Use the Jupyter Notebook Generate_Graphs.ipynb to create the network graph
 2. Input the CSV from the Data Processing Steps above
 3. 
