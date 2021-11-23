@@ -8,7 +8,7 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 </p>
 
 # tl;dr 
-view the interactive webpage in the webpage folder to see a co-purchasing community from the electronics category
+download/git pull onto your machine to view the webpage with an interactive co-purchasing community graph
 
 # Overview
 
