@@ -15,7 +15,7 @@ download/git pull onto your machine to view the webpage with an interactive co-p
 
 # Overview
 
-With any publicly available dataset of this size comes many data quality issues to deal with.  This means there are many manual steps to take to get a clean, duplicate free, base case for futher analysis.  By following the steps outlined, you will be able to analyze and product categrory available on: 
+With any publicly available dataset of this size comes many data quality issues to deal with.  This means there are many manual steps to take to get a clean, duplicate free, base case for futher analysis.  By following the steps outlined in the python notebooks, you will be able to analyze and product categrory available on: 
 [Amazon review data](http://deepyeti.ucsd.edu/jianmo/amazon/index.html)
 
 ***
@@ -27,7 +27,7 @@ The goal of this step is to import Amazon Co-Purchasing data for a single produc
 http://deepyeti.ucsd.edu/jianmo/amazon/index.html
 2. Use the Jupyter Notebook: **Amazon_Data_Exploration.ipynb** to import/download the dataset
 3. Follow the notebook cells in sequential order to clean the dataset
-4. View the summary, data exploration cells to understand the product category at a high-level
+4. View the summary, data exploration cells to understand the product category at a high-level and discover nodes or products of interest and their co-purchasing associations
 5. Export the final category Edgelist to CSV.
 
 ***
