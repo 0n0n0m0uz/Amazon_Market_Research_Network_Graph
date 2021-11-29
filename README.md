@@ -19,7 +19,7 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 
 
-There are 3 main steps to reproduce the visualization contained in the webapp folder.  
+<ins>There are 3 main steps to reproduce the visualization contained in the webapp folder.</ins>
 1. You will first download a dataset for a specific product category (or all categories if your system resources can handle). 
 2. Next you can drill into the data to find insights related to specific products or groups of products by rating, number of reviews, etc. 
 3. Then you will generate an edgelist of products and the products they are frequently co-purchased with.
