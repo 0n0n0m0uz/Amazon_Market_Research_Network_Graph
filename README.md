@@ -3,6 +3,9 @@
 # tl;dr 
 download/git-pull the webapp folder onto your machine to view an example of an interactive co-purchasing graph for the Electronics product cateogry
 ***
+
+
+# Overview
 We designed a tool for aspiring entrepreneurs seeking to get involved with Amazon FBA or start a side hustle. A common refrain from peers was that it was overwhelming for people to know where to begin and therefore saw a need for an automated tool that could take advantage of publicly available Amazon Co-Purchasing datasets to make the market research process a bit more manageable.  By allowing users to select a product category of interest and slice/dice while drilling down into deeper layers of granularity they may discover product niches, relationships between products they were not aware existed or groups of products commonly purchased together. To couple this ability with network graph visualizations and community detection algorithms seemed an improvement on current options available to non-experts looking to start an Amazon business.
 
 
@@ -15,7 +18,6 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 
 
 
-# Overview
 
 There are 3 main steps to reproduce the visualization contained in the webapp folder.  
 1. You will first download a dataset for a specific product category (or all categories if your system resources can handle). 
