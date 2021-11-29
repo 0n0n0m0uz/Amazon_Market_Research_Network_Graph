@@ -23,7 +23,7 @@ We designed a tool for aspiring entrepreneurs seeking to get involved with Amazo
 1. You will first download a dataset for a specific product category (or all categories if your system resources can handle). 
 2. Next you can drill into the data to find insights related to specific products or groups of products by rating, number of reviews, etc. 
 3. Then you will generate an edgelist of products and the products they are frequently co-purchased with.
-4. You can then run a host of various community-detection algorithms and calculations on your graph data and export the final graph to .gexf format
+4. You can then run various community-detection algorithms and calculations on your graph and export the final graph to .gexf format
 5. Create a graph from the .gexf file (we prefer GEPHI since it is open source)
 6. Export to a complete web-page for easier distribution
 
