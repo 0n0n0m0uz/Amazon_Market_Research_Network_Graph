@@ -1,7 +1,7 @@
 ## Final Project for Team 181 - CSE6242 - Amazon Co-Purchasing Network Graphing Tool
 
 # tl;dr 
-download/git-pull the webapp folder onto your local machine to view an interactive co-purchasing graph for a specific product category
+download/git-pull the **websites** folder onto your localhost to view an interactive co-purchasing graph for a specific product category. We included two basic views to start with, a community graph and a maximal clique.  To create your own visualization follow the instructions below.
 ***
 
 
