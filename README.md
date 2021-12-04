@@ -56,6 +56,11 @@ The goal of this step is to take your category edgelist from above and import it
 
 ## View Graph Visualization in Gephi (or other software)
 
+1. Every graph software is different but has similar functionality.  The goal is granularity so even though we only imported one community its tough to make sense of it.
+2. Further cluster the imported community using a 2nd algorithm.  Modularity makes a lot of sense here to view clusters within the larger community.
+3. View and highlight nodes of interest to view the relationships, including nodes with largest number of edges (degree).
+4. Finally export this graph to HTML webapp. Gephi has sigma.js plugin to accomplish this.
+
 ### Experimentation
 
 
