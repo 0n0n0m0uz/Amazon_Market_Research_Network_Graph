@@ -63,6 +63,11 @@ The goal of this step is to take your category edgelist from above and import it
 
 ### Experimentation
 
+1. Use the Jupyter notebooks to discover product niches via filtering
+2. For example you could find products with the highest average rating and rank that by the number of reviewers.
+3. The Amazon.com website is lacking in terms of filtering and you can get more specific using our tool
+4. Find unique products that may be cheap to manufacture to start your FBA business.
+
 
 ### Thoughts on Dataset
 With a public dataset of this size, there are a host of data wrangling tasks to perform to get a clean subeset to create the node/edgelists needed for visualization. The first step was the actual structure of the dataset -- many of the cells contained lists of items instead of a single value. In the most extreme case a particular ASIN had a list of 100 also-bought items, this means the addition of 100 new rows of data.  This proved a challenge to work with even on a powerful Google Cloud Instance.  We had to try several methods, including converting the JSON data to SQL database, Spark Dataframe, etc. Ultimately the technique that we used was to use the 'split' command in BASH terminal to break up the 100GB file into 20 equally sized pieces.  We were then able to load one piece at a time, eliminate all the columns we did not need, and then pickle the file into a byte stream.  We could then concatenate each of the pickles and create a much leaner file whose size did not present resource consumption issues.
